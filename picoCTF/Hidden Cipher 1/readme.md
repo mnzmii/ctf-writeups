@@ -70,7 +70,7 @@ Here your encrypted flag:
 get_secret
 ```
 
-![image.png](Hidden%20Cipher%201/image.png)
+![image.png](image.png)
 
 Observation:
 
@@ -90,7 +90,7 @@ Command used:
 file hiddencipher
 ```
 
-![image.png](Hidden%20Cipher%201/image%201.png)
+![image.png](image%201.png)
 
 Observation:
 
@@ -115,7 +115,7 @@ Result (example ciphertext):
 235a201d702015483b1d412b265d3313501f0c072d135f0d2002302d5011305120100a452e
 ```
 
-![image.png](Hidden%20Cipher%201/image%202.png)
+![image.png](image%202.png)
 
 Observation:
 
@@ -179,7 +179,7 @@ flag += chr(cipher[i] ^ key[i % len(key)])
 print(flag)
 ```
 
-![image.png](Hidden%20Cipher%201/image%203.png)
+![image.png](image%203.png)
 
 Observation:
 
@@ -206,7 +206,7 @@ ciphertext XOR key = plaintext
 picoCTF{xor_unpack_4nalys1s_cecbcb91}
 ```
 
-![image.png](Hidden%20Cipher%201/image%204.png)
+![image.png](image%204.png)
 
 ---
 
