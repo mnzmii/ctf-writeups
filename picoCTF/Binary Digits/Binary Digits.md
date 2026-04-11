@@ -1,7 +1,5 @@
 # Binary Digits
 
-## CTF Writeup
-
 ## Challenge Information
 
 **Challenge Name:** Binary Digits
