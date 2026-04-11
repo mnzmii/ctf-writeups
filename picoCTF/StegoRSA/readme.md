@@ -1,4 +1,4 @@
-# StegoRSA
+/# StegoRSA
 
 # 🧠 CTF Writeup: StegoRSA
 
@@ -48,7 +48,7 @@ Bash
 
 **Observation:** I found a long, continuous string of hexadecimal characters located in the `Comment`  field. This matched the hint regarding "Hex" values.
 
-![image.png](StegoRSA/image.png)
+![image.png](image.png)
 
 ### **2. Converting Hex to RSA Key**
 
@@ -63,7 +63,7 @@ To verify the conversion was successful, I checked the file header:
 
 The file correctly began with `-----BEGIN PRIVATE KEY-----`.
 
-![image.png](StegoRSA/image%201.png)
+![image.png](image%201.png)
 
 ### **3. Decrypting the Flag**
 
@@ -85,7 +85,7 @@ Bash
 
 `cat flag.txt`
 
-![image.png](StegoRSA/image%202.png)
+![image.png](image%202.png)
 
 ---
 
