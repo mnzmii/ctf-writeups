@@ -1,9 +1,5 @@
 # MY GIT
 
----
-
-# CTF Writeup: MyGit
-
 ## **Challenge Information**
 
 - **Challenge Name:** MyGit
@@ -56,7 +52,7 @@ I started by cloning the provided repository using the SSH link and the password
 `git clone ssh://git@foggy-cliff.picoctf.net:60829/git/challenge.git
 cd challenge`
 
-![image.png](MY%20GIT/image.png)
+![image.png](image.png)
 
 ### **2. Analyzing the README**
 
@@ -64,9 +60,9 @@ After entering the directory, I checked the contents of `README.md` to find inst
 
 `cat README.md`
 
-![image.png](MY%20GIT/image%201.png)
+![image.png](image%201.png)
 
-![image.png](MY%20GIT/image%202.png)
+![image.png](image%202.png)
 
 **Observation:** The README stated:
 
@@ -89,7 +85,7 @@ I created a file named `flag.txt` as required and committed it. Because of the c
 git add flag.txt
 git commit -m "Pushing the flag"`
 
-![image.png](MY%20GIT/image%203.png)
+![image.png](image%203.png)
 
 ### **5. Pushing the Changes**
 
@@ -97,7 +93,7 @@ Finally, I pushed the commit to the remote server. The server-side hook validate
 
 `git push origin master`
 
-![image.png](MY%20GIT/image%204.png)
+![image.png](image%204.png)
 
 ---
 
