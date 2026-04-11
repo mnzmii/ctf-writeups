@@ -1,6 +1,4 @@
-/# StegoRSA
-
-# 🧠 CTF Writeup: StegoRSA
+# StegoRSA
 
 ## **Challenge Information**
 
