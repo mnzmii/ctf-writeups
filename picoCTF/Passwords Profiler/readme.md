@@ -1,7 +1,5 @@
 # Passwords Profiler
 
-# CTF Writeup: Password Profiler
-
 ## **Challenge Information**
 
 - **Challenge Name:** Password Profiler
@@ -52,27 +50,27 @@ I launched `cupp.py` in interactive mode and filled in the details found in the 
 
 I enabled the options to add random numbers at the end of words to capture common password patterns. This generated a dictionary file named **`alice.txt`** containing 7,340 potential passwords.
 
-![image.png](Passwords%20Profiler/image.png)
+![image.png](image.png)
 
 ### **2. Preparing the Environment**
 
 I verified the presence of the wordlist and the checking script in my directory. I then used `nano` to create `hash.txt` and paste the intercepted SHA-1 hash.
 
-![image.png](Passwords%20Profiler/image%201.png)
+![image.png](image%201.png)
 
-![image.png](Passwords%20Profiler/image%202.png)
+![image.png](image%202.png)
 
 ### **3. Troubleshooting Script Pathing**
 
-![image.png](Passwords%20Profiler/image%203.png)
+![image.png](image%203.png)
 
 When running the `check_password.py` script, 
 
-![image.png](Passwords%20Profiler/image%204.png)
+![image.png](image%204.png)
 
-![image.png](Passwords%20Profiler/image%205.png)
+![image.png](image%205.png)
 
-![image.png](Passwords%20Profiler/3e18f7e9-da4f-43ce-b8e2-4dcddb7ca6cc.png)
+![image.png](3e18f7e9-da4f-43ce-b8e2-4dcddb7ca6cc.png)
 
 I initially encountered several `FileNotFoundError` issues:
 
@@ -87,7 +85,7 @@ After correcting the script, I ran it against the `alice.txt` wordlist. The scri
 
 `python3 check_password.py alice.txt`
 
-![image.png](Passwords%20Profiler/58798a4c-9e9d-48d5-b828-4cf32db6db5a.png)
+![image.png](58798a4c-9e9d-48d5-b828-4cf32db6db5a.png)
 
 ---
 
