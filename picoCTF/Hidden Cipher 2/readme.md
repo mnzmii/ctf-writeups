@@ -1,7 +1,5 @@
 # Hidden Cipher 2
 
-# CTF Writeup
-
 ## Challenge Information
 
 **Challenge Name:** Hidden Cipher 2
@@ -58,7 +56,7 @@ The server asks "What is 3 + 3?". Upon answering `6`, it returns a series of lar
 
 `672, 630, 594, 666, 402, 504, 420, 738, 654, 312, 696, 624, 570, 588, 306, 624, 294, 660, 600, 570, 594, 294, 672, 624, 306, 684, 570, 612, 336, 594, 606, 330, 582, 600, 324, 750`
 
-![image.png](Hidden%20Cipher%202/image.png)
+![image.png](image.png)
 
 ### Step 2
 
@@ -78,11 +76,11 @@ Automate the decryption using a Python script to divide each encoded value by th
 
 nano solve.py
 
-![image.png](Hidden%20Cipher%202/image%201.png)
+![image.png](image%201.png)
 
 python3 solve.py
 
-![image.png](Hidden%20Cipher%202/image%202.png)
+![image.png](image%202.png)
 
 ---
 
