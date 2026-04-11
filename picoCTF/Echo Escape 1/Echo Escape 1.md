@@ -1,8 +1,6 @@
 # Echo Escape 1
 
-## CTF Writeup
-
-### Challenge Information
+## Challenge Information
 
 **Challenge Name:** Echo Escape 1
 
