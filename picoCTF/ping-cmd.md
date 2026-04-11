@@ -1,7 +1,5 @@
 # ping-cmd
 
-# CTF Writeup
-
 ## Challenge Information
 
 **Challenge Name:** Command Injection
@@ -46,7 +44,7 @@ I connected to the remote server to see how it handles input.
 **Observation:**
 The server prompts for an IP address. Entering `8.8.8.8` triggers a standard Linux `ping` command.
 
-![image.png](ping-cmd/image.png)
+![image.png](image.png)
 
 ### Step 2: Testing Command Injection
 
@@ -60,7 +58,7 @@ The server executed the ping and then listed the files in its current directory:
 - `flag.txt`
 - `script.sh`
 
-![image.png](ping-cmd/image%201.png)
+![image.png](image%201.png)
 
 ### Step 3: Local vs. Remote Confusion (Common Pitfall)
 
@@ -70,7 +68,7 @@ After seeing `flag.txt` in the remote list, I mistakenly tried to read it from m
 
 **Result:**`picoCTF{fake_flag}`
 
-![image.png](ping-cmd/image%202.png)
+![image.png](image%202.png)
 
 **Observation:**
 This was a **fake flag** located in my local `~/Downloads` folder. Because the `nc` session had ended, my terminal was executing commands on my local machine, not the target server.Step 4: Successful Retrieval
@@ -79,7 +77,7 @@ To get the real flag, the `cat` command must be sent *through* the injection poi
 
 **Command used (at the server prompt):**`8.8.8.8 ; cat flag.txt`
 
-![image.png](ping-cmd/image%203.png)
+![image.png](image%203.png)
 
 **Observation:**
 The server processed the `cat` command on its own filesystem and returned the actual flag string.
