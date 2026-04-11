@@ -2,7 +2,7 @@
 
 ## CTF Writeup
 
-### Challenge Information
+## Challenge Information
 
 **Challenge Name:** Binary Digits
 **Platform:** PicoCTF
