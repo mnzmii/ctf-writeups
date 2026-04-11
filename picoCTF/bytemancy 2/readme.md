@@ -1,7 +1,5 @@
 # bytemancy 2
 
-# 🧠 CTF Writeup: Bytemancy-2
-
 ## **Challenge Information**
 
 - **Challenge Name:** Bytemancy-2
@@ -66,7 +64,7 @@ Bash
 
 `python3 -c 'import sys; sys.stdout.buffer.write(b"\xff\xff\xff\n")' | nc lonely-island.picoctf.net 57157`
 
-![image.png](bytemancy%202/image.png)
+![image.png](image.png)
 
 ### **4. Execution and Flag Retrieval**
 
