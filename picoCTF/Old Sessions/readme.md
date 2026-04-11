@@ -1,9 +1,5 @@
 # Old Sessions
 
----
-
-# 🧠 CTF Writeup: Old Sessions
-
 ## **Challenge Information**
 
 - **Challenge Name:** Old Sessions
@@ -54,7 +50,7 @@ I began by creating a dummy account to understand how the application handles se
 
 After logging in, I explored the dashboard. In the comments section, I found a post by a user named `mary_jones_8992` stating: *"Hey I found a strange page at /sessions"*.
 
-![image.png](Old%20Sessions/image.png)
+![image.png](image.png)
 
 ### **2. Discovering the Leaked Sessions**
 
@@ -68,7 +64,7 @@ Following the lead from the comment, I navigated to the hidden endpoint:
 
 This revealed a valid **Session ID** belonging to the `admin` user.
 
-![image.png](Old%20Sessions/image%201.png)
+![image.png](image%201.png)
 
 ### **3. Session Hijacking via Cookie Manipulation**
 
@@ -78,13 +74,13 @@ With the admin's session ID in hand, I used the browser's Developer Tools to hij
 2. Under **Cookies**, I located the cookie named `session`.
 3. I double-clicked the value and replaced my current "test" session ID with the leaked admin ID: `jNgSwba3Y29qWvdDj_CCNI0VotYqImbdOs2jpfWWDU`.
 
-![image.png](Old%20Sessions/image%202.png)
+![image.png](image%202.png)
 
 ### **4. Refreshing and Flag Retrieval**
 
 After modifying the cookie, I refreshed the page (**Ctrl + R**). Because the server recognized the session ID as valid and associated with the admin account, I was automatically logged in as the administrator.
 
-![image.png](Old%20Sessions/image%203.png)
+![image.png](image%203.png)
 
 ---
 
