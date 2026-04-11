@@ -1,7 +1,5 @@
 # Gatekeeper
 
-# CTF Writeup: gatekeeper
-
 ## Challenge Information
 
 - **Challenge Name:** gatekeeper
