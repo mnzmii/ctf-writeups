@@ -38,7 +38,7 @@ aaa
 s main
 pdf`
 
-![image.png](Gatekeeper/image.png)
+![image.png](image.png)
 
 ## Step 2: Identify the Logic Constraints
 
