@@ -32,7 +32,7 @@ The challenge provided a file named `digits.bin`. The description hinted that th
 
 - `digits.bin`: A text file containing a continuous string of binary digits (0 and 1).
 
-![image.png](Binary%20Digits/image.png)
+![image.png](Binary Digits_Images/image.png)
 
 ---
 
