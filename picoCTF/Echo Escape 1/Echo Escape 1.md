@@ -44,7 +44,7 @@ Using the `nm` command, I identified the memory address where the `win()` functi
 
 Bash
 
-![image.png](Echo%20Escape%201/image.png)
+![image.png](image.png)
 
 **Observation:** The address is `0x401256`. The length of the address confirms this is a **64-bit (x86_64)** binary.
 
@@ -68,11 +68,11 @@ The core of this challenge was the **Stack Buffer Overflow**. By providing 40 by
 
 After running the exploit against the remote server:
 
-![image.png](Echo%20Escape%201/image%201.png)
+![image.png](image%201.png)
 
 **Flag:** 
 
-![image.png](Echo%20Escape%201/image%202.png)
+![image.png](image%202.png)
 
 ---
 
