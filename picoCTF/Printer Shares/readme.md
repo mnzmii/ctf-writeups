@@ -1,7 +1,5 @@
 # Printer Shares
 
-# CTF Writeup: Printer Shares
-
 ## **Challenge Information**
 
 - **Challenge Name:** Printer Shares
@@ -45,7 +43,7 @@ The printer is on port `59184`.
 
 I started by checking if the port was open using `nc`. The output confirmed that the port was indeed open.
 
-![image.png](Printer%20Shares/image.png)
+![image.png](image.png)
 
 `nc -vz mysterious-sea.picoctf.net 59184`
 
@@ -53,7 +51,7 @@ I started by checking if the port was open using `nc`. The output confirmed that
 
 Using `smbclient`, I listed the available shares on the server. I used the `-N` flag for a "null session" (no password) to see if guest access was permitted.
 
-![image.png](Printer%20Shares/image%201.png)
+![image.png](image%201.png)
 
 `smbclient -L //mysterious-sea.picoctf.net -p 59184 -N`
 
@@ -66,7 +64,7 @@ The enumeration revealed two shares:
 
 I attempted to connect directly to the `shares` directory.
 
-![image.png](Printer%20Shares/image%202.png)
+![image.png](image%202.png)
 
 `smbclient //mysterious-sea.picoctf.net/shares -p 59184 -N`
 
@@ -88,7 +86,7 @@ smb: \> exit`
 
 Back in my local terminal, I used `cat` to reveal the flag stored inside the file.
 
-![image.png](Printer%20Shares/image%203.png)
+![image.png](image%203.png)
 
 Bash
 
