@@ -1,7 +1,5 @@
 # SUDO MAKE ME A SANDWICH
 
-# 🧠 CTF Writeup: SUDO MAKE ME A SANDWICH
-
 ## **Challenge Information**
 
 - **Challenge Name:** SUDO MAKE ME A SANDWICH
@@ -46,7 +44,7 @@ Bash
 
 `ls -l`
 
-![image.png](SUDO%20MAKE%20ME%20A%20SANDWICH/image.png)
+![image.png](image.png)
 
 **Observation:** The output showed `flag.txt` owned by `root:root` with permissions `-r--r-----`, meaning only root and members of the root group could read it. Attempting to read it with `cat flag.txt` resulted in a "Permission denied" error.
 
@@ -58,7 +56,7 @@ Bash
 
 `sudo -l`
 
-![image.png](SUDO%20MAKE%20ME%20A%20SANDWICH/image%201.png)
+![image.png](image%201.png)
 
 **Result:**
 
@@ -74,9 +72,9 @@ Bash
 
 `sudo emacs flag.txt`
 
-![image.png](SUDO%20MAKE%20ME%20A%20SANDWICH/image%202.png)
+![image.png](image%202.png)
 
-![image.png](SUDO%20MAKE%20ME%20A%20SANDWICH/image%203.png)
+![image.png](image%203.png)
 
 Once the Emacs interface opened, the contents of the flag were displayed in the main buffer.
 
