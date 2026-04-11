@@ -1,7 +1,5 @@
 # Hidden Cipher 1
 
-# 🧠 CTF Writeup
-
 ## Challenge Information
 
 **Challenge Name:** Hidden Cipher 1
