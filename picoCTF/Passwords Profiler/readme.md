@@ -107,4 +107,3 @@ The original password followed a common human pattern: **`Nickname_Birthdate`**.
 - **Script Flexibility:** In CTFs, provided scripts often have hardcoded paths. Being able to read and modify Python code to match your environment is a vital skill.
 - **SHA-1 Vulnerability:** While SHA-1 is no longer considered "secure" against collision attacks, it is still frequently found in legacy systems and remains susceptible to high-speed dictionary attacks.
 
-[](Passwords%20Profiler/Untitled%203201f5517c5f80518ac2c896c1746a05.md)
