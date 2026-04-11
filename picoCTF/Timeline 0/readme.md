@@ -1,7 +1,5 @@
 # Timeline 0
 
-# 🧠 CTF Writeup
-
 ## Challenge Information
 
 Challenge Name: Timeline 0
@@ -75,7 +73,7 @@ Result:
 partition4.img: Linux rev 1.0 ext4 filesystem data
 ```
 
-![image.png](Timeline%200/image.png)
+![image.png](image.png)
 
 Observation:
 
@@ -135,7 +133,7 @@ Command used:
 grep 1970 timeline.txt
 ```
 
-![image.png](Timeline%200/image%201.png)
+![image.png](image%201.png)
 
 Observation:
 
@@ -159,7 +157,7 @@ Output:
 Wed Jan 02 1985 01:00:00       41 macb r/rrw-r--r-- 0 0 4945 /bin/bcab
 ```
 
-![image.png](Timeline%200/image%202.png)
+![image.png](image%202.png)
 
 Observation:
 
@@ -189,7 +187,7 @@ Output:
 NzFtMzExbjNfMHU3MTEzcl9oM3JfNDNhMmU3YWYK
 ```
 
-![image.png](Timeline%200/image%203.png)
+![image.png](image%203.png)
 
 Observation:
 
@@ -213,7 +211,7 @@ Output:
 71m311n3_0u7113r_h3r_43a2e7af
 ```
 
-![image.png](Timeline%200/image%204.png)
+![image.png](image%204.png)
 
 Since picoCTF requires the flag format `picoCTF{}`, the decoded text was wrapped accordingly.
 
