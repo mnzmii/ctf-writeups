@@ -1,10 +1,6 @@
 # Shared Secret
 
-# CTF Writeup: Shared Secret
-
----
-
-### Challenge Information
+## Challenge Information
 
 - **Challenge Name:** Diffie-Hellman Leak (Inferred)
 - **Platform:** picoCTF
