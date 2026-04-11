@@ -32,7 +32,7 @@ The challenge provided a file named `digits.bin`. The description hinted that th
 
 - `digits.bin`: A text file containing a continuous string of binary digits (0 and 1).
 
-![image.png](Binary Digits_Images/image.png)
+![image.png](Binary%20Digits_Images/image.png)
 
 ---
 
@@ -56,7 +56,7 @@ I used CyberChef to automate the conversion of the entire string.
 1. **From Binary:** To convert the text-based 1s and 0s into raw bytes.
 2. **Render Image:** To display the resulting bytes as a visual file.
 
-![image.png](Binary%20Digits/image%201.png)
+![image.png](Binary%20Digits_Images/image%201.png)
 
 ### Step 3: Extracting the Flag
 
@@ -64,7 +64,7 @@ Once the recipe was applied, an image appeared in the output pane. The image con
 
 **Observation:** The image clearly displayed the flag.
 
-![image.png](Binary%20Digits/image%202.png)
+![image.png](Binary%20Digits_Images/image%202.png)
 
 ---
 
