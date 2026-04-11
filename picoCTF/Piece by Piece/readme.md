@@ -1,7 +1,5 @@
 # Piece by Piece
 
-# CTF Writeup: Piece by Piece
-
 ## **Challenge Information**
 
 - **Challenge Name:** Piece by Piece
@@ -54,7 +52,7 @@ After logging in, you will find multiple file parts in your home directory. Thes
 
 First, I connected to the challenge server using SSH.
 
-![image.png](Piece%20by%20Piece/image.png)
+![image.png](image.png)
 
 `ssh ctf-player@dolphin-cove.picoctf.net -p 60338`
 
@@ -68,7 +66,7 @@ Reading the instructions revealed the following hints:
 - The parts need to be combined.
 - The ZIP file is protected with the password: **`supersecret`**.
 
-![image.png](Piece%20by%20Piece/image%201.png)
+![image.png](image%201.png)
 
 ### **3. Combining the Parts**
 
@@ -89,7 +87,7 @@ With the archive reconstructed, I used the `unzip` command. When prompted, I ent
 
 Finally, I listed the directory again to find `flag.txt` and read its contents.
 
-![image.png](Piece%20by%20Piece/image%202.png)
+![image.png](image%202.png)
 
 `cat flag.txt`
 
